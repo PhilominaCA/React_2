@@ -117,3 +117,13 @@ label{
   padding: 2vw;
   font-size: 1.2vw;
 }
+
+.form-div{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#outlined-basic{
+  color: white;
+
+}
