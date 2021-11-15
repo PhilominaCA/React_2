@@ -1,129 +1,98 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.Counter-Cont{
-display: flex;
-gap:10px;
-}
-
-.App {
+  width: 100%;
   font-family: sans-serif;
-  padding: 0.1vw;
   background-color: black;
 }
 .movie-head-pic {
-  padding-right: 23vw;
-  height: 10vw;
-  width: 20vw;
-}
-
-.poster {
-  height: 25vw;
-  width: 35vw;
-  padding: 3vw;
-  Object-fit : cover
-}
-.movie {
-  padding: 2vw;
-  display: flex;
-  font-size: 1.2vw;
-  /*background-color: rgb(236, 236, 228);
-*/
-  color: white;
-}
-.summary {
-  padding: 2vw;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.movie-detail {
-  height: 19vw;
-  width: 35vw;
-  padding: 5vw;
-  border: 1px solid saddlebrown;
-  color: rgb(238, 238, 194);
+  height: 70px;
+  width: 15%;
 }
 .heaad {
-  color: rgb(224, 202, 60);
-}
-h1 {
-  padding-top: 1.5vw;
-  font-size: 3vw;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-.header {
+  color: rgb(54, 48, 9);
   display: flex;
-}
-button{
-  background-color:black ;
-  color: white;
-  padding: 0.3vw;
-  border: rgb(97, 4, 4) 1px solid;;
-}
-.add-movie{
-  background-color:rgb(61, 3, 3) ;
-  color: white;
-  padding: 0.5vw;
-  border: rgb(95, 95, 14) 1px solid;
-  color: 2vw;
-  width: 15vw;
-  height: 2.5vw;
-}
-input{
-  background-color:rgb(247, 210, 210) ;
-  width: 15vw;
-  height: 2vw;
-  color: black;
-border: rgb(233, 233, 14) 1px solid;
-
-}
-label{
-  color: white;
-  padding: 2vw;
-  font-size: 1.2vw;
+  border: none;
 }
 
+.header {
+  display: flex;  
+  padding-right: 15vw;
+  background-color: rgb(243, 241, 94);
+color: rgb(15, 15, 14);
+justify-content: space-between;
+align-items: center;
+font-weight: bolder;
+font-size: 15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .form-div{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap:20px;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  color: rgb(167, 211, 84);
 }
-
 #outlined-basic{
   color: white;
+
+}
+.add-button{
+  color: aliceblue;
+}
+.movie-div{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap:50px;
+padding: 1vw;
+}
+
+.movie-detail {
+  height: 4%;
+  width: 325px;
+  padding: 0.1vw;
+  color: rgb(238, 238, 194);
+  justify-content: space-evenly; 
+}
+.poster {
+  height: 270px;
+  width: 240px;
+  Object-fit : cover;
+}
+
+.summary {
+  font-size: small;
+  padding: 0%;
+}
+
+.movie-info{
+  display: flex;
+  justify-content: space-between;
+}
+.movie-trail{
+  color: beige;
+  padding: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: -10px;
+}
+a{
+  color: rgb(0, 3, 5);
+  text-decoration: none;
+  border:1px solid rgb(15, 15, 15);
+padding: 5px;
+}
+.trailer-specs{
+  display: flex;
+  justify-content: space-between;
+  width:60%;
+}
+.movie-footer{
+  display: flex;
+  justify-content: space-between;
 
 }
